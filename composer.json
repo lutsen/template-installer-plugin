@@ -3,7 +3,9 @@
 	"type": "composer-plugin",
 	"license": "MIT",
 	"autoload": {
-		"psr-0": {"Lagan\\Composer": "/"}
+		"psr-4": {
+			"Lagan\\Composer": "/"
+		}
 	},
 	"extra": {
 		"class": "Lagan\\Composer\\TemplateInstallerPlugin"
