@@ -1,6 +1,8 @@
 {
 	"name": "lagan/template-installer-plugin",
 	"type": "composer-plugin",
+	"description": "Composer plugin to install Lagan admin content templates in their own property-templates directory outside the default vendor directory.",
+	"keywords": ["lagan","template","composer","plugin"],
 	"license": "MIT",
 	"autoload": {
 		"psr-4": {

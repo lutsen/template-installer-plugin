@@ -1,6 +1,12 @@
 <?php
 
-// From https://getcomposer.org/doc/articles/custom-installers.md
+/**
+ * The Plugin class defining the Composer plugin. Implements the Composer\Plugin\PluginInterface.
+ * It then registers the Custom Installer in its activate() method.
+ *
+ * From https://getcomposer.org/doc/articles/custom-installers.md
+ * To be used with Lagan: https://github.com/lutsen/lagan
+ */
 
 namespace Lagan\Composer;
 

@@ -1,6 +1,14 @@
 <?php
 
-// From https://getcomposer.org/doc/articles/custom-installers.md
+/**
+ * The Custom Installer class that executes the custom installation.
+ * It implements the Composer\Installer\InstallerInterface.
+ * It defines the type string as it will be recognized by packages
+ * that will use this installer in the supports() method.
+ *
+ * From https://getcomposer.org/doc/articles/custom-installers.md
+ * To be used with Lagan: https://github.com/lutsen/lagan
+ */
 
 namespace Lagan\Composer;
 
