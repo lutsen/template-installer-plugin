@@ -13,6 +13,6 @@
 		"class": "Lagan\\Composer\\TemplateInstallerPlugin"
 	},
 	"require": {
-		"composer-plugin-api": "^1.0"
+		"composer-plugin-api": "^2.1"
 	}
 }
